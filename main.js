@@ -1,32 +1,12 @@
-// function onEntry(entry) {
-//     entry.forEach(change => {
-//         if (change.isIntersecting) {
-//             change.target.classList.add('animate__animated');
-//         }
-//     });
-// }
-// let options = { threshold: [1] };
-// let observer = new IntersectionObserver(onEntry, options);
-// let carts = document.querySelectorAll('.about__cart');
-// let cartsImg = document.querySelectorAll('.cart__img');
-// let cartsTitle = document.querySelectorAll('.cart__title');
-// let cartsLine = document.querySelectorAll('.cart__line');
-// let cartsDesc = document.querySelectorAll('.cart__desc');
-// for (let elm of carts) {
-//     observer.observe(elm);
-// }
-// for (let elm of cartsImg) {
-//     observer.observe(elm);
-// }
-// for (let elm of cartsTitle) {
-//     observer.observe(elm);
-// }
-// for (let elm of cartsLine) {
-//     observer.observe(elm);
-// }
-// for (let elm of cartsDesc) {
-//     observer.observe(elm);
-// }
+let menuBtn = document.querySelector('.header__burger');
+let menu = document.querySelector('.nav');
+let lock = document.querySelector('body');
+
+menuBtn.addEventListener('click', function () {
+    menuBtn.classList.toggle('active');
+    menu.classList.toggle('active');
+    lock.classList.toggle('lock');
+})
 
 let wow = new WOW(
     {
