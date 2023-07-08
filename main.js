@@ -24,3 +24,19 @@ let wow = new WOW(
     }
 );
 wow.init();
+
+const btn = document.querySelector('.form__btn')
+
+
+btn.addEventListener('click', e => {
+    e.preventDefault()
+    const form = document.querySelector('.form')
+    form.style.display = 'none'
+
+    const img = document.querySelector('.quotes__img')
+    img.style.display = 'block'
+    const text = document.querySelector('.quotes__desc')
+    text.classList.add('quotes__desc_width')
+    text.innerHTML = 'Your request has been received,  please wait to be contacted.'
+
+})

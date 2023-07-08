@@ -377,6 +377,13 @@ a {
 	&__desc {
 		margin-top: 30px;
 		text-align: center;
+
+		&_width {
+			max-width: 390px;
+			width: 100%;
+			margin: 30px auto 0;
+			font-size: 24px;
+		}
 	}
 
 	&__link {
@@ -386,6 +393,11 @@ a {
 		justify-content: center;
 		align-items: center;
 		gap: 20px;
+	}
+
+	&__img {
+		display: none;
+		margin: 80px auto 0;
 	}
 }
 

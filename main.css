@@ -304,6 +304,12 @@ a {
   margin-top: 30px;
   text-align: center;
 }
+.quotes__desc_width {
+  max-width: 390px;
+  width: 100%;
+  margin: 30px auto 0;
+  font-size: 24px;
+}
 .quotes__link {
   margin-top: 80px;
   display: flex;
@@ -311,6 +317,10 @@ a {
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+.quotes__img {
+  display: none;
+  margin: 80px auto 0;
 }
 
 .form {
