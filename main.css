@@ -318,4 +318,85 @@ a {
 }
 .form__btn {
   padding: 18px 82px;
+}
+
+.contact {
+  padding: 150px 0;
+}
+.contact__zone {
+  display: flex;
+  margin-top: 80px;
+  gap: 32px;
+}
+.contact__info {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+.contact__info:not(.contact__info_last) {
+  margin-bottom: 60px;
+}
+.contact__subtitle {
+  color: #0d1b35;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.contact__links {
+  margin: 45px 0 0 75px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.contact a {
+  color: #00005a;
+}
+.contact__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer {
+  background: #0d1b35;
+}
+.footer__container {
+  display: flex;
+  gap: 78px;
+  align-items: center;
+}
+.footer__line {
+  position: relative;
+  width: 1px;
+  height: 310px;
+  background: #06b3ff;
+}
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 157px;
+}
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer__link_flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer__text {
+  text-align: center;
+  margin-top: 80px;
+  color: #f9f9f9;
+  font-size: 14px;
+}
+
+.email {
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
